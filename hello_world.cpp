@@ -1,22 +1,10 @@
 #include <iostream>
-
-using namespace std;
+#include <string>
 
 int main() {
+	std::string name;
+	std::cin >> name;
+	std::cout << "Hello world from " + name << std::endl;
 
-	if (true) {
-		if (true) {
-			if (true) {
-				goto mark1;
-			}
-		}
-	}
-	else {
-		goto mark2;
-	}
-mark1:
-	cout << "Hello world from AlexeyVorobyev";
-	return 1;
-mark2:
 	return 1;
 }
