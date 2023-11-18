@@ -1,10 +1,15 @@
 #include <iostream>
 #include <string>
 
-int main() {
+std::string HelloByName() {
 	std::string name;
 	std::cin >> name;
-	std::cout << "Hello world from " + name << std::endl;
+
+	return "Hello world from " + name;
+}
+
+int main() {
+	std::cout << HelloByName() << std::endl;
 
 	return 1;
 }
