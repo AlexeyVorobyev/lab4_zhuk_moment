@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-//Очень крутая функция
+//Very cool function
 std::string HelloByName() {
 	std::string name;
 	std::cin >> name;
